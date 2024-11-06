@@ -18,9 +18,12 @@ function Owner() {
           <h2 className="text-xl font-semibold text-gray-700 mb-4">Short Biography</h2>
           <p className="text-center text-gray-600 leading-relaxed">
           Recent Bootcamp Generation graduate specializing in Junior Software Development. 
-          Over 1.5 years of experience as a Test Debug Engineer in the electrical field at Fabrinet Co., Ltd. Holds a Bachelor's degree in Electrical Engineering. 
-          Strong in time management, planning, problem-solving, and communication. Proficient in JavaScript, React, API, SQL, MongoDB, GIT, HTML, CSS, and Python. 
-          Actively seeking a Software Developer role to leverage technical and soft skills. Committed to customer focus, achievement motivation, and teamwork.
+          I've been working as a vampire for 550 years. . Holds 99 coppies Master's degree in Electrical Engineering, Medicine, Phamacy and Law. 
+          Strong in time management, planning, problem-solving, and communication. Proficient in JavaScript, React, API integration, SQL, MongoDB, Git, HTML, CSS, and Python, 
+          with hands-on experience in building full-stack web applications. Familiar with cloud platforms like AWS and containerization tools like Docker. 
+          Skilled in designing efficient database schemas and optimizing queries for performance. Experienced in implementing responsive and accessible user interfaces and working in agile development environments using version control and CI/CD pipelines.
+          Actively seeking a Software Developer role to leverage both technical and soft skills in delivering impactful software solutions. 
+          Committed to customer focus, achievement motivation, and teamwork, with a passion for continuous learning and adapting to emerging technologies.
           </p>
         </div>
       </main>
