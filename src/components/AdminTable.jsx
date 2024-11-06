@@ -5,7 +5,7 @@ const AdminTable = ({ users, onDelete, onEdit }) => {
     <div className="overflow-x-auto w-full max-w-4xl mx-auto mt-8">
       <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-lg">
         <thead>
-          <tr className="bg-gray-800 text-white uppercase text-sm leading-normal">
+          <tr className="bg-pink-950 text-white uppercase text-sm leading-normal">
             <th className="py-3 px-6 text-left border-b border-gray-300">Name</th>
             <th className="py-3 px-6 text-left border-b border-gray-300">Last Name</th>
             <th className="py-3 px-6 text-left border-b border-gray-300">Position</th>
@@ -21,13 +21,13 @@ const AdminTable = ({ users, onDelete, onEdit }) => {
               <td className="py-3 px-6 text-left space-x-2">
                 <button 
                   onClick={() => onEdit(user.id)} 
-                  className="bg-yellow-500 text-white rounded py-1 px-3 hover:bg-yellow-700"
+                  className="bg-gray-700 text-yellow-300 rounded py-1 px-3 hover:bg-yellow-800"
                 >
                   Edit
                 </button>
                 <button 
                   onClick={() => onDelete(user.id)} 
-                  className="bg-red-500 text-white rounded py-1 px-3 hover:bg-red-700"
+                  className="bg-gray-700 text-red-300 rounded py-1 px-3 hover:bg-red-700"
                 >
                   Delete
                 </button>

@@ -66,13 +66,13 @@ function Home() {
         <h2 className="text-3xl font-bold mb-8 text-gray-800">Generation Thailand Home - {showUserTable ? "User Sector" : "Admin Sector"}</h2>
         <div className="flex space-x-8 mb-8">
           <button 
-            className={`py-2 px-4 rounded ${showUserTable ? 'bg-green-950 text-white' : 'bg-white text-blue-500'} hover:bg-green-300`}
+            className={`py-2 px-4 rounded ${showUserTable ? 'bg-gray-900 text-white' : 'bg-gray-800 text-white'} hover:bg-pink-950`}
             onClick={() => { setShowUserTable(true); setShowAdminTable(false); }}
           >
             User Home Sector
           </button>
           <button 
-            className={`py-2 px-4 rounded ${showAdminTable ? 'bg-green-950 text-white' : 'bg-white text-blue-500'} hover:bg-green-300`}
+            className={`py-2 px-4 rounded ${showAdminTable ? 'bg-gray-900 text-white' : 'bg-gray-800 text-white'} hover:bg-pink-950`}
             onClick={() => { setShowUserTable(false); setShowAdminTable(true); }}
           >
             Admin Home Sector
@@ -109,7 +109,7 @@ function Home() {
               />
               <button 
                 onClick={editUserData ? handleUpdateUser : handleAddUser} 
-                className="bg-blue-500 text-white rounded py-2"
+                className="bg-gray-800 text-white rounded py-2 hover:bg-gray-500"
               >
                 {editUserData ? 'Update' : 'Save'}
               </button>
